@@ -339,7 +339,7 @@ class Board(object):
 
     # Command handlers
     def _handle_analog_message(self, pin_nr, lsb, msb):
-        value = round(float((msb << 7) + lsb) / 1023, 4)
+        value = (msb << 7) + lsb
         # Only set the value if we are actually reporting
         try:
             if self.analog[pin_nr].reporting:
