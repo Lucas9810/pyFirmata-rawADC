@@ -339,6 +339,7 @@ class Board(object):
 
     # Command handlers
     def _handle_analog_message(self, pin_nr, lsb, msb):
+        #returns value 0-1023 (raw ADC data)
         value = (msb << 7) + lsb
         # Only set the value if we are actually reporting
         try:
