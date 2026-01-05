@@ -24,7 +24,7 @@ The preferred way to install is with pip_::
 
     pip install pyfirmata
 
-You can also install from source with ``python setup.py install``. You will
+You can also install from source with ``python3 setup.py install``. You will
 need to have `setuptools`_ installed::
 
     git clone https://github.com/Lucas9810/pyFirmata-rawADC
