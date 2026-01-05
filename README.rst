@@ -1,6 +1,7 @@
 =========
-pyFirmata
+pyFirmata-rawADC
 =========
+Fork of pyFirmata that returns analog data from 0-1023 as an integer instead of float (just like the IDE). Useful for scientific projects, because uncertainty is easier to calculate this way.
 
 pyFirmata is a Python interface for the `Firmata`_ protocol. It is fully
 compatible with Firmata 2.1, and has some functionality of version 2.2. It runs
