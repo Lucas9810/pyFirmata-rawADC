@@ -29,7 +29,7 @@ need to have `setuptools`_ installed::
 
     git clone https://github.com/Lucas9810/pyFirmata-rawADC
     cd pyFirmata
-    python setup.py install
+    python3 setup.py install
 
 .. _pip: http://www.pip-installer.org/en/latest/
 .. _setuptools: https://pypi.python.org/pypi/setuptools
