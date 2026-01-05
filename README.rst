@@ -27,7 +27,7 @@ The preferred way to install is with pip_::
 You can also install from source with ``python setup.py install``. You will
 need to have `setuptools`_ installed::
 
-    git clone https://github.com/tino/pyFirmata
+    git clone https://github.com/Lucas9810/pyFirmata-rawADC
     cd pyFirmata
     python setup.py install
 
